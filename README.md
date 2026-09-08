@@ -62,7 +62,7 @@ How to Run
 
 Clone the repository:
 ```text
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/your-username/CLI_TASK_MANAGER.git
 ```
 Navigate to the project folder:
 ```text
