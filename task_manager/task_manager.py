@@ -5,7 +5,7 @@ def add_task(tasks, title):
     task = {"title": title, "status": "Pending"}
     tasks.append(task)
     save_tasks(tasks)
-    print("Tasks Added Successfully")
+    print("Tasks added successfully")
 
 
 def view_tasks(tasks):
@@ -20,10 +20,10 @@ def mark_task_completed(tasks, task_number):
     task = tasks[task_number - 1]
     task["status"] = "Completed"
     save_tasks(tasks)
-    print("Task marked as Completed")
+    print("Task marked as completed successfully")
 
 
 def delete_task(tasks, task_number):
     tasks.pop(task_number - 1)
     save_tasks(tasks)
-    print("Task deleted successfully ")
+    print("Task deleted successfully .")
